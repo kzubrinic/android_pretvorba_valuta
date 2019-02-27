@@ -2,9 +2,7 @@
     <string name="app_name">Pretvorba valuta</string>
     <string name="iznos_kn">Iznos Kn</string>
     <string name="iznos_eura">Iznos Eura</string>
-    <string name="te_aj_eura">Tečaj Eura</string>
-    <string name="kn_eu"><![CDATA[Kn->Eu]]></string>
-    <string name="eu_kn"><![CDATA[Eu->Kn]]></string>
-    <string name="ime_prezimr">Pero perić</string>
-    <string name="bla_bla">Bla bla</string>
+    <string name="tecaj_eura">Tečaj Eura</string>
+    <string name="kn_eu">Kn-&gt;Eu></string>
+    <string name="eu_kn">Eu-&gt;Kn></string>
 </resources>
