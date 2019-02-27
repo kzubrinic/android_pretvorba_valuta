@@ -15,7 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:text="Iznos Kn"
+        android:text="@string/iznos_kn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:text="Iznos Eura"
+        android:text="@string/iznos_eura"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iznosKn" />
 
@@ -63,7 +63,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
-        android:text="Tečaj Eura"
+        android:text="@string/te_aj_eura"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iznosEu" />
 
@@ -88,18 +88,19 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
         android:onClick="pretvorbaKnEu"
-        android:text="Kn->Eu"
+        android:text="@string/kn_eu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tecaj" />
 
     <Button
+
         android:id="@+id/euKn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:onClick="pretvorbaEuKn"
-        android:text="Eu->Kn"
+        android:text="@string/eu_kn"
         app:layout_constraintBottom_toBottomOf="@+id/knEu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/knEu" />
