@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        kn = (EditText)findViewById(R.id.iznosKn);
-        eu = (EditText)findViewById(R.id.iznosEu);
-        tecaj = (EditText)findViewById(R.id.tecaj);
+        kn = findViewById(R.id.iznosKn);
+        eu = findViewById(R.id.iznosEu);
+        tecaj = findViewById(R.id.tecaj);
     }
 
     public void pretvorbaKnEu(View view) {
